@@ -1,0 +1,51 @@
+div#socialLogin {
+  display: flex;
+}
+.SocialLoginGoogleButton {
+  width: 50%;
+}
+.SocialLoginFacebookButton {
+  width: 50%;
+}
+.SocialLoginFacebookButton div {
+  text-align: center !important;
+  font-size: 14px;
+}
+.SocialLoginGoogleButton div {
+  text-align: center !important;
+  color: black !important;
+  font-size: 14px;
+}
+button.FakebtnFacebook.btn.btn-primary {
+  display: block;
+  border: 0px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 19px;
+  margin: 5px;
+  width: calc(50% - 10px);
+  overflow: hidden;
+  padding: 0px 10px;
+  user-select: none;
+  height: 50px;
+  background: #3b5998;
+}
+button.FakebtnGoogle.btn.btn-primary {
+  display: block;
+  border: 0px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+  color: black;
+  cursor: pointer;
+  font-size: 19px;
+  margin: 5px;
+  width: calc(50% - 10px);
+  overflow: hidden;
+  padding: 0px 10px;
+  -webkit-user-select: none;
+  user-select: none;
+  height: 50px;
+  background: white;
+}

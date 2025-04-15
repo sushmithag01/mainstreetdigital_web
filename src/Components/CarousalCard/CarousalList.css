@@ -1,0 +1,60 @@
+.populardeal-slider .carousel-inner {
+  width: 90%;
+  margin: auto;
+}
+.react-multiple-carousel__arrow {
+  z-index: 1 !important;
+}
+.populardeal-slider .card {
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgb(0 0 0 / 8%);
+  border-radius: 16px;
+  border: none;
+}
+.populardeal-slider .carousel-control-prev {
+  left: -5px;
+  background: #ffffff !important;
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  top: 37%;
+  border-radius: 50%;
+}
+.populardeal-slider .carousel-control-next {
+  right: -5px;
+  background: #ffffff !important;
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  top: 37%;
+  border-radius: 50%;
+}
+.populardeal-slider .carousel-control-prev-icon {
+  background-image: url("../../assets/prev.png") !important;
+  width: 10px !important;
+  height: 15px !important;
+}
+.populardeal-slider .carousel-control-next-icon {
+  background-image: url("../../assets/next.png") !important;
+  width: 10px !important;
+  height: 15px !important;
+}
+.react-multi-carousel-list.slide.related-deals-carousel
+  .react-multi-carousel-track
+  .card {
+  height: 100%;
+}
+.react-multi-carousel-list.slide.related-deals-carousel .tag {
+  margin-left: 0;
+  padding: 5px 0;
+}
+.react-multi-carousel-list.slide.voucher-detail-other-deals
+  .react-multi-carousel-track
+  .card {
+  height: 100%;
+}
+.react-multi-carousel-list.slide.voucher-detail-other-deals .tag {
+  margin-left: 0;
+  padding: 5px 0;
+}

@@ -1,0 +1,134 @@
+.paginationBttns {
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem 3rem 1rem;
+  transition: 0.2s ease;
+  margin: 20px auto;
+  text-decoration: none !important;
+}
+ul.paginationBttns li {
+  margin-top: 10px;
+}
+
+.paginationBttns a {
+  padding: 6px;
+  margin: 8px;
+  border-radius: 5px;
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.716px;
+  color: #e66100 !important;
+  text-align: center;
+  letter-spacing: 0.562197px;
+  cursor: pointer;
+  border: 2px solid #e66100;
+  transition: 0.2s ease;
+  text-decoration: none !important;
+}
+
+.paginationBttns a:hover {
+  color: white !important;
+  background: #e66100;
+  transition: 0.2s ease;
+}
+
+.paginationActive a {
+  color: white !important;
+  background: #e66100;
+  transition: 0.2s ease;
+  /* border: 1px solid orange; */
+}
+
+/* LANDING PAGE 1 */
+.paginationBtn-LPageOne {
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem 3rem 1rem;
+  transition: 0.2s ease;
+  text-decoration: none !important;
+}
+.paginationBtn-LPageOne li {
+  margin-top: 10px;
+}
+.paginationBtn-LPageOne a:hover {
+  color: white !important;
+  background: #0580b5;
+  transition: 0.2s ease;
+}
+.paginationBtn-LPageOne a {
+  padding: 6px;
+  margin: 8px;
+  border-radius: 5px;
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.716px;
+  color: #0580b5 !important;
+  text-align: center;
+  letter-spacing: 0.562197px;
+  cursor: pointer;
+  border: 2px solid #0580b5;
+  transition: 0.2s ease;
+  text-decoration: none !important;
+}
+.paginationActive-Btn-LPageOne a {
+  color: white !important;
+  background: #0580b5;
+  transition: 0.2s ease;
+  /* border: 1px solid orange; */
+}
+
+/* PAGINATION 2 */
+
+ul.paginationBtn-LPageTwo {
+  margin: 30px 0 10px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+ul.paginationBtn-LPageTwo li {
+  margin-top: 10px;
+}
+.paginationBtn-LPageTwo a {
+  color: #ddfc74 !important;
+  margin: 8px;
+  padding: 10px;
+  border: 2px solid #ddfc74;
+  border-radius: 10px;
+}
+ul.paginationBtn-LPageTwo a:hover {
+  color: #171a29 !important;
+  background-color: #ddfc74;
+  transition: 0.2s ease;
+}
+.paginationActive-Btn-LPageTwo a {
+  color: #171a29 !important;
+  background-color: #ddfc74 !important;
+}
+
+@media screen and (max-width: 460px) {
+  .paginationBttns {
+    height: fit-content;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem 3rem 1rem;
+    transition: 0.2s ease;
+    text-decoration: none !important;
+    width: fit-content;
+    flex-wrap: wrap;
+  }
+  .paginationBtn-LPageTwo a {
+    margin: 3px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+}

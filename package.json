@@ -1,0 +1,93 @@
+{
+  "name": "vms",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/register": "^7.22.15",
+    "@brainhubeu/react-carousel": "^2.0.4",
+    "@popperjs/core": "^2.11.6",
+    "@react-navigation/native": "^6.1.6",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@stripe/react-stripe-js": "^2.1.2",
+    "@stripe/stripe-js": "^2.1.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.0",
+    "bootstrap": "^5.2.3",
+    "copy-to-clipboard": "^3.3.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^9.15.0",
+    "ignore-styles": "^5.0.1",
+    "jquery": "^3.6.4",
+    "mdb-react-ui-kit": "^5.1.0",
+    "mdbootstrap": "^4.20.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.45",
+    "otp-input-react": "^0.3.0",
+    "react": "^18.2.0",
+    "react-acceptjs": "^0.3.0",
+    "react-authorize-net": "^0.5.7",
+    "react-bootstrap": "^2.7.2",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-easy-crop": "^4.7.4",
+    "react-froala-wysiwyg": "^4.3.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-helmet-async": "^1.0.7",
+    "react-icons": "^4.8.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-multi-carousel": "^2.8.2",
+    "react-paginate": "^8.1.4",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.0",
+    "react-share": "^4.4.1",
+    "react-slick": "^0.29.0",
+    "react-social-login-buttons": "^3.6.1",
+    "react-spinners": "^0.13.7",
+    "react-toastify": "^9.1.1",
+    "reactjs-social-login": "^2.6.2",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "sitemap": "^8.0.0",
+    "slick-carousel": "^1.8.1",
+    "source-map-loader": "^4.0.1",
+    "use-history": "^1.4.1",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "ssr": "react-scripts build && node server/index.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

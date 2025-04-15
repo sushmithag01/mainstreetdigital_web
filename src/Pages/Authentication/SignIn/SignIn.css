@@ -1,0 +1,160 @@
+/* html, .main{
+background-image: url("../../assets/background.png")!important;
+background-size: cover;
+background-repeat: no-repeat;
+background-color:#c0c0c0e6;
+background-attachment: fixed;
+height: 100vh;
+} */
+.sign-first {
+  color: #fff !important;
+  font-weight: 500;
+}
+img.signLogo {
+  width: 100px;
+}
+.sign-second {
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 21px;
+}
+.signin-social {
+  color: #000;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px !important;
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+}
+.facebook {
+  color: #fff;
+}
+.social-icons {
+  margin-right: 10px;
+}
+.social-main {
+  /* background-color: #fff;
+    border-radius: 10px; */
+  /* width: 48.1%!important; */
+  padding-top: 3px;
+  padding-bottom: 2px;
+  /* padding-right: 0!important;
+    padding-left: 0!important; */
+}
+/* .social-main1 {
+    margin-right: 15px;
+} */
+.reg-bussiness {
+  background: #ffffff;
+  border-radius: 15px;
+}
+.ortext {
+  font-size: 13px;
+}
+.form-label-custom {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 5px !important;
+}
+.page-content-right .form-label-custom {
+  color: #fff;
+}
+.custom-formcontrol {
+  font-size: 15px;
+}
+.page-content-right .signin-row .form-control,
+.page-content-right .signin-row .form-control:focus {
+  font-size: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+.page-content-right .signin-row .form-control {
+  border: 1px solid #000000 !important;
+}
+.signin-row .form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #b9b9b9;
+  font-size: 13px;
+}
+.signin-row .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #b9b9b9;
+  font-size: 13px;
+}
+.signin-row .form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #b9b9b9;
+  font-size: 13px;
+}
+.signin-row .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #b9b9b9;
+  font-size: 13px;
+}
+.page-content-right .signin-row .form-control:focus {
+  box-shadow: none;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+.signin-row .form-control:focus {
+  box-shadow: none;
+  border: 1px solid #e66100 !important;
+}
+.forgot_Password {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.forgot_Password a,
+.forgot_Password a:hover {
+  color: #e66100;
+}
+.dont-acc {
+  font-size: 15px;
+  padding-top: 10px;
+  color: #fff;
+}
+.signup-text,
+.signup-text:hover {
+  color: #e66100;
+  font-weight: bold;
+}
+.busitext-1 {
+  font-size: 15px;
+  text-align: center;
+}
+.busitext-2 {
+  font-size: 19px;
+  font-weight: 700;
+  text-align: center;
+}
+.reg-main {
+  text-align: right;
+}
+.successful {
+  color: green;
+  font-size: 17px;
+}
+.failed {
+  color: red;
+  font-size: 17px;
+}
+p.sign-second.mt-4.pt-0 {
+  margin-top: 10px !important;
+}
+.link-container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: baseline;
+}
+.link-text {
+  font-size: 13px;
+  padding-top: 10px;
+  color: #fff;
+}
+.link-text:hover {
+  color: #e66100;
+}

@@ -1,0 +1,74 @@
+svg.arrow-left {
+    font-size: 28px;
+}
+img.backArrowLeft {
+    width: 15px;
+    margin-right: 5px;
+}
+p.page-text {
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-flex;
+    color: black;
+}
+p.page-text:hover a {
+    color: #E66100!important;
+}
+.dashboard-card .card {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 10px 0px;
+    border: none;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
+    border-radius: 16px;
+    align-items: center;
+   
+}
+.dash-img {
+    background: #e6610042;
+    padding: 12px 10px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.dash-img img {
+    width: 30px;
+}
+.dash-content {
+    padding-left: 15px;
+    width: 100%;
+}
+.dash-text1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #292929;
+    padding-bottom: 5px;
+}
+.dash-text2 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #292929;
+    font-weight: bold;
+}
+svg.dash-icon {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #E66100;
+}
+.dash-img-main {
+    border-left: 7px solid #E66100;
+}
+.green-card .dash-img-main {
+    border-left: 7px solid #A9CF4B;
+}
+.green-card .dash-img {
+    background: rgb(169 207 75 / 29%);
+}
+span.dolar-size {
+    font-size: 18px;
+} 
+
+p.page-maintitle.dashboard {
+    margin-top: 10px;
+}

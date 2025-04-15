@@ -1,0 +1,14 @@
+.my-profilr-position {
+  position: relative;
+}
+
+button#button-addon2 svg {
+  fill: #e66100;
+}
+
+p.upload_Profile {
+  color: red !important;
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+}

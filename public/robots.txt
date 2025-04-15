@@ -1,0 +1,5 @@
+User-agent: *
+Allow: https://customer.shoplocal.digital
+Allow: https://customer.shoplocal.digital/signup
+
+Sitemap: https://customer.shoplocal.digital/sitemap.xml

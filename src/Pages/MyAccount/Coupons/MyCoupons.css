@@ -1,0 +1,80 @@
+.active-coupon-detail.col .vou-1 {
+  color: black;
+}
+.active-coupon-detail.col {
+  display: flex;
+  flex-direction: column;
+  height: 204px;
+  justify-content: space-between;
+}
+.redeemed-coupon-detail.col {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 204px;
+}
+.expired-coupon-detail.col {
+  display: flex;
+  flex-direction: column;
+  height: 204px;
+  justify-content: space-between;
+}
+.expired-coupon-detail.col button {
+  margin: 0;
+}
+
+.expired-coupon-detail.col .vou-1 {
+  color: black;
+}
+.redeemed-coupon-detail.col .vou-1 {
+  color: black;
+}
+button.view-btn.successfully-redeemed.btn.btn-primary {
+  margin: 0;
+  font-weight: bold;
+}
+
+.show-code {
+  width: 50% !important;
+}
+button.view-btn.text-left.btn.btn-primary {
+  margin: 0;
+  width: 50%;
+}
+.active-coupon-detail.col button.view-btn.text-left.btn.btn-primary {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.active-coupon-detail.col button.view-btn.text-left.btn.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #0d6efd;
+  --bs-btn-border-color: #0d6efd;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0b5ed7;
+  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #white !important;
+  --bs-btn-active-bg: #e66100 !important;
+  --bs-btn-active-border-color: #fff !important;
+  --bs-btn-active-shadow: inset 0 3px 5px #e66100 !important;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #e66100;
+  --bs-btn-disabled-border-color: #e66100;
+}
+.active-coupon-detail.col button.copy-btn.btn.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #0d6efd;
+  --bs-btn-border-color: #0d6efd;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0b5ed7;
+  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #e66100 !important;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}

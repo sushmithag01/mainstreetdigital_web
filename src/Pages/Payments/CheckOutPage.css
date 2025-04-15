@@ -1,0 +1,423 @@
+.Checkoutpagedetails {
+  padding: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background-color: white;
+  /* padding-right: 40px; */
+}
+
+.CheckOutPage {
+  display: flex;
+  background: #f5f5f5;
+}
+
+.checkoutDetails {
+  width: 100%;
+  padding: 1rem;
+  padding-right: 50px;
+  margin-left: 230px;
+}
+
+.checkoutOne {
+  padding: 10px;
+  width: 50%;
+}
+
+.checkoutOne h2 {
+  font-size: 21px;
+  font-weight: 600;
+  color: black;
+}
+
+.checkoutOne p {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.radio.cards label {
+  color: black;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  accent-color: #e66100;
+}
+
+.credit-card-list {
+  display: block;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: fit-content;
+  padding: 5px 15px;
+}
+
+.credit-head {
+  color: black;
+}
+
+.credit-card-list p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+  color: black;
+}
+
+.credit-card-list img {
+  margin: auto;
+}
+
+.credit-cards {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid #e66100;
+  padding: 10px 15px;
+}
+
+img.deleteicon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.new-card {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.new-card img {
+  margin: auto;
+  margin-right: 20px;
+}
+
+.methods-summary {
+  display: flex;
+}
+
+.methods-summary h3 {
+  font-size: 21px;
+  font-weight: 600;
+  color: #e66100;
+  margin-top: 15px;
+}
+
+.order-summary h2 {
+  font-size: 21px;
+  font-weight: 600;
+  color: #e66100;
+}
+
+.paymentmethods {
+  width: 50%;
+}
+
+.order-summary {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.order-summary-main {
+  width: 100%;
+}
+
+.summary-vou-details {
+  width: 100%;
+}
+
+.summary-voucher {
+  display: flex;
+  padding: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  position: relative;
+}
+
+.summary-voucher img {
+  margin: auto 20px auto auto;
+}
+
+.summary-vou-details p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e66100;
+}
+
+.summary-vou-details h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.summary-vou-details h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+
+.summary-money {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.summary-money p {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: line-through;
+  color: black;
+  margin-right: 20px;
+  overflow-wrap: anywhere;
+}
+
+.summary-money h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #059002;
+  margin-right: 20px;
+}
+
+.summary-money h5 {
+  margin: auto 0;
+  font-size: 13px;
+  font-weight: 400;
+  color: #059002;
+}
+
+img.vou-flag {
+  position: absolute;
+  right: 0;
+  margin: 0;
+  top: 0;
+  border-top-right-radius: 10px;
+}
+
+.checkout-TC label {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  margin-left: 10px;
+}
+
+.checkout-TC-details {
+  margin-top: 10px;
+}
+
+.checkout-TC-details h3 {
+  font-size: 21px;
+  font-weight: 600;
+  color: #e66100;
+}
+
+.checkout-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.checkout-buttons button {
+  width: 35%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button.checkout-cancel {
+  border: 1px solid #e66100;
+  color: #e66100;
+  font-size: 16px;
+  background: transparent;
+  font-weight: 700;
+}
+
+button.checkout-place-order {
+  font-size: 16px;
+  font-weight: 700;
+  background: #e66100;
+  color: white;
+  border: 0;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.checkout-place-order-disable {
+  font-size: 16px;
+  font-weight: 700;
+  background: #838383a4 !important;
+  color: white !important;
+  border: 0;
+  cursor: no-drop !important;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.text-center.small-btns.d-flex.cancel-placeOrder > a,
+.text-center.small-btns.d-flex.cancel-placeOrder > div {
+  max-width: 200px;
+  min-width: 200px;
+}
+
+.total-checkout {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.total-checkout h3 {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  margin: auto 0;
+}
+
+.total-checkout p {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* .total-checkout:first-child {
+  border-bottom: 1px solid #00000040;
+} */
+.order-summary-amount {
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  margin-top: 10px;
+}
+
+input.form-check-input:checked {
+  background-color: #e66100;
+  border-color: #e66100;
+}
+
+p.view.cancel-checkout {
+  margin-top: 0;
+  width: 100%;
+}
+
+button.not_Checked_TC {
+  min-width: 200px;
+  max-width: 200px;
+  background: #d5d5d5;
+  border-radius: 10px;
+  border: 1px solid #d5d5d5;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: no-drop !important;
+}
+
+button.pay_Checkout {
+  background: #e66100;
+  color: white;
+  border: 1px solid #e66100;
+  border-radius: 10px;
+  min-width: 200px;
+  max-width: 200px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.visibleClass {
+  display: block;
+  color: red;
+}
+
+.invisibleClass {
+  display: none;
+}
+
+a.T-C-checkout {
+  font-size: 16px;
+  font-weight: 600;
+  color: #e66100;
+  border-bottom: 1px solid #e66100;
+}
+
+.TC-box-checkout .form-check-input[type="checkbox"] {
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+
+/* MODAL FOR NEW CARD */
+.modal-checkout * {
+  color: black;
+}
+
+.alertTerms {
+  display: block;
+  color: red;
+}
+
+.nonalertTerms {
+  display: none;
+}
+
+.nonalert {
+  color: red;
+}
+
+.text-center.small-btns.d-flex.cancel-placeOrder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: end;
+}
+
+@media screen and (max-width: 1024px) {
+  div#socialLogin {
+    flex-direction: column;
+  }
+  div#socialLogin > div {
+    width: 100%;
+  }
+  div#socialLogin button > div {
+    justify-content: center;
+  }
+  div#socialLogin button > div > div:nth-child(3) {
+    width: fit-content !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .CheckOutPage {
+    flex-direction: column;
+  }
+  .checkoutDetails {
+    margin-left: 0;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  p.page-text.dashboard.backCheckout {
+    padding: 0;
+  }
+
+  .summary-voucher {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .summary-voucher img {
+    margin: auto;
+  }
+
+  .checkoutDetails .checkoutOne {
+    width: 100%;
+  }
+}
