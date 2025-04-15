@@ -1,1 +1,2 @@
-# mainstreetdigital_web
+**shoplocal.digital** 
+**dev.shoplocal.digital**
